@@ -23,4 +23,33 @@ body {
 	-khtml-box-shadow: 4px 4px 5px black;
 }
 
+.imgproject:hover {
+	box-shadow: 4px 4px 5px black;
+	-moz-box-shadow: 4px 4px 5px black;
+	-webkit-box-shadow: 4px 4px 5px black;
+	-khtml-box-shadow: 4px 4px 5px black;
+	filter: brightness(1.15);
+}
+
+.imgproject:active {
+	box-shadow: 0px 0px 0px black;
+	-moz-box-shadow: 0px 0px 0px black;
+	-webkit-box-shadow: 0px 0px 0px black;
+	-khtml-box-shadow: 0px 0px 0px black;
+	filter: brightness(0.75);
+	transform: translate(3px, 3px);
+}
+
+a {
+	color: blue;
+}
+
+a:hover {
+	color: red;
+}
+
+a:active {
+	color: purple;
+}
+
 
