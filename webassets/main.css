@@ -5,6 +5,8 @@
 body {
 	background-attachment: fixed;
 	font-family: SuperMarioMakerExtended;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
 	background-color: #09BBE8;
 	background: linear-gradient(to bottom, #09BBE8 5%, #037f9e 100%);
 	user-select: none;
